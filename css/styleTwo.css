@@ -1,0 +1,470 @@
+font-family: 'Overpass', sans-serif;
+
+body {
+	margin: 0 auto;
+  width: 100%;
+}
+
+.container {
+	width: 1920px;
+  align-content: center;
+}
+
+.topbar {
+background-color: red;
+color: rgba(40,40, 40,1);
+color: rgba(0,0,128,1);
+color: #808080;
+padding:5px 0;
+}
+
+.login {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+   float:right;
+   color: #CC66FF;
+}
+}
+}
+
+
+/* Mozilla Specific CSS */
+
+
+.login button {
+  border: none;
+
+
+  background-color: #CC66FF;
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  color:#CC66FF;
+  font-weight: bold;
+  padding:10px 15px;
+  margin-right: 25px;
+}
+}
+}
+
+
+.login button:hover {
+  background-color: #555555;
+  color: #eeeeee;
+}
+
+button: focus {
+  outline: none;
+}
+
+.topbar input {
+  border: none;
+  background: #efefef;
+  padding:10px 5px;
+}
+
+.white {
+  color:#ffffff;
+}
+
+.white-webkit-input-placeholder {
+    color: #333333;
+}
+
+.dark {
+  color:#333333;
+}
+
+.search {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  display: inline-block;
+  margin-right: 30px;
+  float: right;
+
+}
+}
+}
+
+.banner {
+  display: block;
+  position: relative;
+}
+
+.logo {
+  position: left;
+  
+}
+
+.logo img {
+  width: 330px;
+  height: 150px; 
+}
+
+.navbar ul li {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  padding: 0px 80px 0px 80px;
+}  
+}
+}
+
+nav {
+  @-moz-document url-prefix() {
+  display: block;
+  text-align: center;
+}
+}
+
+.navbar nav a {
+  background-color: #33FF99;
+  font-family: 'Overpass';
+  display: inline-block;
+  padding: 10px 60px 10px 60px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  color: gray;
+  margin-left: 10px;
+}
+
+nav a: hover {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  background-color: #0066FF;
+}
+}
+}
+
+.orange {
+
+  background-color: #0066FF;
+  height: 100px;
+  width: 100%;
+}
+
+
+.orange1 {
+  background-color: #FF6633;
+  height: 100px;
+  width: 100%;
+}
+
+.logo {
+  position: left;
+}
+
+.logo img {
+  width: 330px;
+  height: 150px; 
+}
+
+.banner-image {
+  width: 100%;
+  background-image: url("../images/banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 718px;
+}
+
+.mainHeadings  {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  text-align: center;
+  padding: 70px 0;
+  font-family: 'Overpass';
+  font-size: 70px;
+}
+}
+}
+
+span {
+
+  color: red;
+  font-style: bold;
+}
+
+.StaticIcons {
+  text-align: center;
+  height: 450px;
+  display: block;
+}
+
+.StaticIcons img {
+  @-moz-document url-prefix() {
+  width: 380px;
+  height: auto;
+  padding: 10px 30px 30px 30px;
+}
+}
+
+div .sections {
+  text-align: center;
+}
+
+section {
+  width: 30%;
+  display: inline-block;
+  float: left;
+  padding: 10px 10px;
+}
+
+h4 {
+  padding: 30px 0;
+  font-family: 'Overpass';
+  font-size: 35px;
+}
+
+p {
+  padding: 15px 0;
+  font-family: 'Overpass';
+  font-size: 30px;
+  text-align: left;
+  padding-left: 125px;
+}
+
+.list {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.orangeText {
+  color: #FF6633;
+  background-color: #fff;
+  height: 40px;
+}
+
+.price {
+  color: red;
+  font-size: 45px;
+  text-align: right;
+  padding-right: 5px;
+  padding-top: 65px;
+}
+
+.Book {
+  text-align: center;
+  padding: 50px 0;
+} 
+
+input[type="hidden" i], input[type="image" i], input[type="file" i] {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  padding: 50px 0;
+  padding-right: 90px;
+  border-style: solid;
+  border-color: #660066;
+}
+}
+
+
+}
+
+.value {
+  padding-left: 90px;
+
+
+}
+
+.discount {
+  background-image: url("../images/disc.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 590px;
+  background-position: center;
+}
+
+.discount h2 {
+  padding: 30px 0;
+  font-family: 'Overpass';
+  font-size: 50px;
+  text-align: right;
+}
+
+.discountText {
+  text-align: left;
+  width: 600px;
+  float: right;
+  margin-right: 400px;
+  display: block;
+  align-content: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+.discountText p {
+  text-align: center;
+  width: 500px;
+
+}
+.discountText form {
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  text-align: center;
+  border-style: solid;
+  color: #660066;
+
+}
+}
+}
+
+.News {
+  text-align: center;
+  padding: 120px 0;
+  font-family: 'Overpass';
+  font-size: 70px;
+}
+  
+
+
+.one-half {
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 70px;
+  padding-right: 40px;
+ 
+}
+
+.artOne img {
+  float: none;
+  padding: 0px 60px 30px 0px;
+  width: 712px;
+  margin-right: 381px;
+  display: block;
+  align-content: center;
+  height: 602px;
+  margin-left: 281px
+}
+
+.one-half { 
+  background-color: rgba(51,204, 53,0.1);
+  float: right;
+  padding: 174px 0 40px 40px;
+  padding-top: 90px;
+  border-left: 50px;
+  width: 890px;
+  border-right: 70px;
+ 
+   
+}
+
+.oros{
+  background-color: none;
+  color: #FC7010;
+  
+
+
+}
+
+.europe {
+  font-size: 25px;
+  padding-left: 210px;
+  padding-top: 50px;
+  padding-right: 120px;
+  text-align: left;
+}
+
+.art {
+  margin-top: 60px;
+
+}
+
+
+h5 {
+  font-family: 'Overpass';
+  font-size: 60px;
+}
+
+.one-half-left { 
+  background-color: rgba(51,204, 53,0.1);
+  float: left;
+  border-right: 50px;
+  width: 890px;
+  text-align: center;
+  font-family: 'Overpass';
+  font-size: 70px;
+ 
+}
+
+.europeTwo{
+  font-size: 25px;
+  padding-right: 120px;
+  padding-top: 50px;
+  padding-left: 210px;
+  text-align: right;
+}
+
+.artTwo img {
+  float: none;
+  padding: 30px 60px 0px 0px;
+  width: 712px;
+  display: block;
+  align-content: center;
+  height: 602px;
+  margin-right: 3px
+}
+
+
+
+.toptext{
+  color: #33CC99;
+  text-align: center;
+
+}
+.topText{
+
+  text-align: center;
+}
+
+.stars{
+  text-align: center;
+  height: 450px;
+  display: block;
+}
+
+.stars img {
+  width: 380px;
+  height: auto;
+  padding: 20px 40px 30px 30px;
+  float: center;
+  
+}
+
+.review{
+  padding-top: 200px;
+  padding-right: 150px;
+  background-color: #E6E6E6;
+  height: 650px;
+  width: 55%;
+
+}
+
+.Contact{
+  @-moz-document url-prefix() {
+  @media screen and (-webkit-min-device-pixel-ratio:0) {
+  float: left;
+  margin: 0 auto;
+}
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
